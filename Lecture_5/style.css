@@ -1,0 +1,50 @@
+/* simple selector
+combinator selector
+pseudo-class selector
+pseudo-element selector
+attribute selector */
+
+p{
+    text-align: center;
+}
+
+#Para{
+    color: red;
+}
+.Para1{
+    color: green;
+}
+*{
+    background-color: gray;
+}
+
+#head1 , #head2 {
+    color:blue;
+}
+
+div p{
+    color: yellow;
+}
+
+div > p {
+    color: black;
+}
+h1 + h3 {
+    color: pink;
+}
+
+h3 ~ h4{
+    color: aqua;
+}
+
+p:hover{
+    color: blueviolet;
+}
+
+h1::first-letter{
+    color: skyblue;
+}
+
+a[target]{
+    background-color: orange;
+}
